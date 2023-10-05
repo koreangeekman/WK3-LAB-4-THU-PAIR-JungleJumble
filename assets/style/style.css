@@ -1,0 +1,56 @@
+/* BASIC STYLES HERE */
+
+:root {
+  --purpleColor: #BC87D5;
+  --redColor: #FD8A8F;
+  --greenColor: #91C250;
+  --yellowColor: #F2CF58;
+}
+
+.card {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.redCard {
+  border: 2px solid black;
+  box-shadow: 5px -5px var(--redColor);
+  width: fit-content;
+}
+
+.greenCard {
+  border: 2px solid black;
+  box-shadow: -5px -5px var(--greenColor);
+}
+
+.greenShadow {
+  text-shadow: 2px 2px var(--greenColor);
+}
+
+.purpleCard {
+  border: 2px solid black;
+  box-shadow: -10px 8px var(--purpleColor);
+}
+
+.purpleBorder {
+  border: 2px solid var(--purpleColor);
+  border-radius: 5px;
+}
+
+.purpleBtn {
+  background-color: var(--purpleColor);
+  color: white;
+  margin-top: 5px;
+}
+
+.yellowCard {
+  border: 2px solid black;
+  box-shadow: 5px 8px var(--yellowColor);
+}
+
+.yellowBtn {
+  background-color: var(--yellowColor);
+  color: white;
+  padding: 2px 0.5rem;
+  /* margin-top: 5px; */
+}
